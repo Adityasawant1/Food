@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 // import 'package:practice/widgets/homepage.dart';
 // import 'package:practice/widgets/loginpage.dart';
-import 'package:practice/widgets/notification.dart';
+import 'package:practice/widgets/profile.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       //   '/': (context) => login(),
       //   '/home': (context) => HomePage(),
       // },
-      home: notification(),
+      home: MyProfile(),
     );
   }
 }
